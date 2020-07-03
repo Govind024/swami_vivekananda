@@ -1,0 +1,99 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url("concrete-road-surrounded-by-trees-831243.jpg");
+    width:100%;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.head{
+    text-align: center;
+    color:white;
+    margin:50px 0px 50px 0px;
+    text-transform: capitalize;
+}
+.head h1{
+    text-transform: uppercase;
+}
+.working_area{
+    width:80%;
+    margin:0px auto;
+}
+header{
+    padding:10px 0px;
+    background-image:url("concrete-road-surrounded-by-trees-831243.jpg");
+    text-align:center;
+    background-size: cover;
+}
+header img{
+    text-shadow: 1px 1px 10px orangered;
+    width:150px;
+}
+.bio_detail{
+    background-color: rgb(184, 176, 176);
+    padding:50px 40px;
+    font-size: 18px;
+    color:white;
+    letter-spacing:1px;
+    text-align: justify;
+}
+.thought_detail{
+    width:100%;
+}
+.thought_detail img{
+    float:left;
+    width:50%;
+    height:240px;
+    border:1px solid black;
+}
+.box{
+    width:100%;
+    display: flex;
+    background-color: beige;
+    align-items: center;
+    text-align: justify;
+    padding:10px;
+}
+.left,.right{
+    width:50%;
+    padding:10px;
+}
+.box img{
+    width:100%;
+}
+footer{
+    background-color: rgb(73, 73, 68);
+    text-align: center;
+    color:black;
+    margin-top:50px;
+}
+@media only screen and (max-width:700px)
+{
+    .bio_detail{
+        padding:8px;
+    }
+    .thought_detail,.box{
+        display: flex;
+        flex-direction: column;
+    }
+    .thought_detail img{
+        width: 100%;
+    }
+    .box{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        padding:5px;
+    }
+    .left,.right{
+        width:100%;
+    }
+    .box img{
+        width:100%;
+    }
+}
